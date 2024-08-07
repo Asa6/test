@@ -10,7 +10,7 @@
 		"initiators": [{
 			"tenantId": "1",
 			"userId": "7110142637801209876",
-			"name": "耿浩源",
+			"name": "test_user",
 			"employeeNo": "6786129",
 			"employeeType": 1,
 			"isResigned": false,
