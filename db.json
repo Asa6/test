@@ -1,54 +1,263 @@
 {
-	"formValues": {},
-	"doc": {
-		"definitionName": "DevOps审批",
-		"instanceName": "运维审批",
-		"tags": [],
-		"serialId": "0000000000",
-		"sourceName": "devops",
-		"instanceStatus": "PENDING",
-		"initiators": [{
-			"tenantId": "1",
-			"userId": "7110142637801209876",
-			"name": "test_user",
-			"employeeNo": "6786129",
-			"employeeType": 1,
-			"isResigned": false,
-			"gender": 0,
-			"avatarUrl": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vhojteh7vhojpognuhog/审批设计器/avatar (1).png",
-			"email": "6786129@bytedance.com",
-			"isTenantManager": false,
-			"tenantKey": "",
-			"employeeId": "27ec36de",
-			"openId": "ou_e8caf3bf1cb45ac845addf3282bcac5e"
+	"ui_schema": {
+		"formValues": {},
+		"doc": {
+			"definitionName": "DevOps审批",
+			"instanceName": "运维审批",
+			"tags": [],
+			"serialId": "0000000000",
+			"sourceName": "devops",
+			"instanceStatus": "PENDING",
+			"initiators": [{
+				"tenantId": "1",
+				"userId": "7110142637801209876",
+				"name": "耿浩源",
+				"employeeNo": "6786129",
+				"employeeType": 1,
+				"isResigned": false,
+				"gender": 0,
+				"avatarUrl": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vhojteh7vhojpognuhog/审批设计器/avatar (1).png",
+				"email": "6786129@bytedance.com",
+				"isTenantManager": false,
+				"tenantKey": "",
+				"employeeId": "27ec36de",
+				"openId": "ou_e8caf3bf1cb45ac845addf3282bcac5e"
+			}],
+			"startTime": 1658472664000,
+			"hasContactManager": true,
+			"managerLink": "https://applink.feishu-boe.cn/client/chat/open?openId=ou_72b42d8b6463deefa83f7e95d60b1e24",
+			"showPrint": true,
+			"supportPrint": true,
+			"documentNotice": {
+				"visible": false,
+				"message": "提示标题",
+				"viewMode": "default",
+				"description": "提示说明主体",
+				"type": "info",
+				"tooltipMessage": "提示信息",
+				"action": {
+					"visible": false
+				}
+			},
+			"globalNotice": {
+				"visible": false,
+				"message": "提示标题",
+				"viewMode": "default",
+				"description": "提示说明主体",
+				"type": "info",
+				"tooltipMessage": "提示信息",
+				"action": {
+					"visible": false
+				}
+			},
+			"layout": "vertical"
+		}
+	},
+	"ui_data": {
+		"formValues": {},
+		"doc": {
+			"definitionName": "发布计划",
+			"instanceName": "V1.0版本发布",
+			"tags": [],
+			"serialId": "267",
+			"sourceName": "Devops运维平台",
+			"instanceStatus": "PENDING",
+			"initiators": [{
+				"tenantId": "1",
+				"userId": "7110142637801209876",
+				"name": "王一五",
+				"employeeNo": "6786129",
+				"employeeType": 1,
+				"isResigned": false,
+				"gender": 0,
+				"avatarUrl": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vhojteh7vhojpognuhog/审批设计器/avatar (1).png",
+				"email": "6786129@bytedance.com",
+				"departments": [{
+					"name": "IT Intelligence Engineering"
+				}],
+				"isTenantManager": false,
+				"tenantKey": "",
+				"employeeId": "7afc41e7",
+				"openId": "ou_758f2d187cd6b70dda7f5206c746855a"
+			}],
+			"startTime": 1658472664000,
+			"hasContactManager": true,
+			"managerLink": "https://applink.feishu-boe.cn/client/chat/open?openId=ou_72b42d8b6463deefa83f7e95d60b1e24",
+			"showPrint": false,
+			"supportPrint": false,
+			"documentNotice": {
+				"visible": false,
+				"message": "提示标题",
+				"viewMode": "default",
+				"description": "提示说明主体",
+				"type": "info",
+				"tooltipMessage": "提示信息",
+				"action": {
+					"visible": false
+				}
+			},
+			"globalNotice": {
+				"visible": false,
+				"message": "提示标题",
+				"viewMode": "default",
+				"description": "提示说明主体",
+				"type": "info",
+				"tooltipMessage": "提示信息",
+				"action": {
+					"visible": false
+				}
+			},
+			"layout": "vertical"
+		}
+	},
+	"approval": {
+		"code": 0,
+		"i18n_resources": [{
+			"is_default": true,
+			"locale": "zh-CN",
+			"texts": {
+				"@i18n@nameEndEvent_2": "结束",
+				"@i18n@nameUserTask_1": "提交",
+				"@i18n@nameUserTask_1angxr5": "合规法务",
+				"@i18n@nameUserTask_2": "加签",
+				"@i18n@nameUserTask_4": "财务审批",
+				"@i18n@nameUserTask_7": "直线上级",
+				"@i18n@system": "系统"
+			}
+		}, {
+			"is_default": false,
+			"locale": "en-US",
+			"texts": {
+				"@i18n@nameEndEvent_2": "End",
+				"@i18n@nameUserTask_1": "Submit",
+				"@i18n@nameUserTask_1angxr5": "Compliance Legal",
+				"@i18n@nameUserTask_2": "Finance Approval",
+				"@i18n@nameUserTask_4": "Project Owner",
+				"@i18n@nameUserTask_7": "Supervisor",
+				"@i18n@system": "System"
+			}
+		}, {
+			"is_default": false,
+			"locale": "ja-JP",
+			"texts": {
+				"@i18n@nameEndEvent_2": "End",
+				"@i18n@nameUserTask_1": "Submit",
+				"@i18n@nameUserTask_1angxr5": "Compliance Legal",
+				"@i18n@nameUserTask_2": "Finance Approval",
+				"@i18n@nameUserTask_4": "Project Owner",
+				"@i18n@nameUserTask_7": "Supervisor",
+				"@i18n@system": "システム"
+			}
 		}],
-		"startTime": 1658472664000,
-		"hasContactManager": true,
-		"managerLink": "https://applink.feishu-boe.cn/client/chat/open?openId=ou_72b42d8b6463deefa83f7e95d60b1e24",
-		"showPrint": true,
-		"supportPrint": true,
-		"documentNotice": {
-			"visible": false,
-			"message": "提示标题",
-			"viewMode": "default",
-			"description": "提示说明主体",
-			"type": "info",
-			"tooltipMessage": "提示信息",
-			"action": {
-				"visible": false
-			}
-		},
-		"globalNotice": {
-			"visible": false,
-			"message": "提示标题",
-			"viewMode": "default",
-			"description": "提示说明主体",
-			"type": "info",
-			"tooltipMessage": "提示信息",
-			"action": {
-				"visible": false
-			}
-		},
-		"layout": "vertical"
+		"msg": "success",
+		"nodes": [{
+			"approval_type": 1,
+			"id": "cce559ac-4e8c-4a23-b7d3-ba3b84b8636d",
+			"node_name": "@i18n@nameUserTask_1",
+			"operators": [{
+				"bind_task_id": "cce559ac-4e8c-4a23-b7d3-ba3b84b8636d+7577610",
+				"user": "@user@user_id@85517fg5"
+			}],
+			"parent_node_id": "UserTask_1",
+			"parent_task_id": "cce559ac-4e8c-4a23-b7d3-ba3b84b8636d",
+			"target_users": [],
+			"task_state": "",
+			"timestamp": 1658286692,
+			"type": "SUBMITTED"
+		}, {
+			"approval_type": 5,
+			"comment": "未找到当前节点审批人，系统自动跳过",
+			"id": "95a99af8-cf0c-44a1-9c06-865aa7d51f08",
+			"node_name": "@i18n@nameUserTask_1angxr5",
+			"operators": [{
+				"external_user": {
+					"avatar_url": "https://lf3-ea.bytetos.com/obj/eaoffice/approval-document-trusteeship/system-bot.svg",
+					"name": "@i18n@system"
+				}
+			}],
+			"parent_node_id": "UserTask_1angxr5",
+			"parent_task_id": "95a99af8-cf0c-44a1-9c06-865aa7d51f08",
+			"target_users": [],
+			"task_state": "",
+			"timestamp": 1658286692,
+			"type": "AUTO_PASSED"
+		}, {
+			"approval_type": 0,
+			"comment": "管理员处理",
+			"id": "48150500-718d-4d71-bcb1-35b3f644c53f",
+			"node_name": "@i18n@nameUserTask_2",
+			"operators": [{
+				"bind_task_id": "48150500-718d-4d71-bcb1-35b3f644c53f+3881730",
+				"tags": [1],
+				"user": "@user@user_id@85517fg5",
+				"reason": 1
+			}],
+			"parent_node_id": "UserTask_2",
+			"parent_task_id": "48150500-718d-4d71-bcb1-35b3f644c53f",
+			"target_users": [{
+				"bind_task_id": "48150500-718d-4d71-bcb1-35b3f644c53f+3881730",
+				"user": "@user@user_id@85517fg5"
+			}],
+			"task_state": "",
+			"timestamp": 1658286783,
+			"type": "APPROVER_ADDED",
+			"attachments": [{
+				"name": "图片1",
+				"is_image": true,
+				"url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vhojteh7vhojpognuhog/schema调试工具/460a6c1d-3d9a-4a68-bcd3-4f18c3d04aa2.jpeg"
+			}, {
+				"name": "图片2",
+				"is_image": true,
+				"url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vhojteh7vhojpognuhog/schema调试工具/d2bdb1c3-42dd-4a06-b30f-a2e76ba6528e.jpeg"
+			}]
+		}, {
+			"approval_type": 1,
+			"id": "16276d26-2fd6-458d-be0f-65c28f014a8f",
+			"node_name": "@i18n@nameUserTask_4",
+			"operators": [{
+				"bind_task_id": "16276d26-2fd6-458d-be0f-65c28f014a8f+3881730",
+				"user": "@user@user_id@85517fg5"
+			}],
+			"parent_node_id": "UserTask_4",
+			"parent_task_id": "16276d26-2fd6-458d-be0f-65c28f014a8f",
+			"target_users": [],
+			"task_state": "",
+			"timestamp": 1658286883,
+			"attachments": [{
+				"name": "商业化X产品 ROI 测算明细.xlsx",
+				"url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/vhojteh7vhojpognuhog/schema调试工具/1.xlsx"
+			}],
+			"type": "PROCESSING"
+		}, {
+			"approval_type": 2,
+			"id": "ae19f42b-ad85-4061-8bbb-a8a695052d1a",
+			"node_name": "@i18n@nameUserTask_7",
+			"operators": [{
+				"bind_task_id": "null+3037206",
+				"user": "@user@user_id@2684dced"
+			}],
+			"parent_node_id": "UserTask_7",
+			"parent_task_id": "ae19f42b-ad85-4061-8bbb-a8a695052d1a",
+			"target_users": [],
+			"task_state": "",
+			"timestamp": 1658286884,
+			"type": "AWAITING_APPROVAL"
+		}, {
+			"approval_type": 0,
+			"id": "d23db4a9-79ad-44c4-8ad6-82b803b60d11",
+			"node_name": "@i18n@nameEndEvent_2",
+			"operators": [{
+				"external_user": {
+					"avatar_url": "https://lf3-ea.bytetos.com/obj/eaoffice/approval-document-trusteeship/system-bot.svg",
+					"name": "@i18n@system"
+				}
+			}],
+			"parent_node_id": "EndEvent_2",
+			"parent_task_id": "d23db4a9-79ad-44c4-8ad6-82b803b60d11",
+			"target_users": [],
+			"task_state": "",
+			"timestamp": 1658286886,
+			"type": "NOT_ENDED"
+		}]
 	}
 }
